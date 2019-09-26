@@ -10,7 +10,8 @@ RUN pip3 install \
     apache-libcloud==1.3.0 \
     boto molecule pycrypto \
     cryptography==2.6.1 \
-    docker==4.0.1
+    docker==4.0.1 \
+    python-vagrant
 
 ARG version=latest
 
